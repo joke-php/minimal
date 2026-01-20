@@ -1,0 +1,27 @@
+{
+  "name": "voral/joke-minimal",
+  "description": "Minimal skeleton for projects using the Joke micro-framework",
+  "type": "project",
+  "require": {
+    "php": "^8.4",
+    "voral/joke": "^1.0"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "scripts": {
+    "dev": "php -S localhost:8000 -t public/"
+  },
+  "scripts-descriptions": {
+    "dev": "Start development server on http://localhost:8000"
+  },
+  "authors": [
+    {
+      "name": "Alexander Vorobyev",
+      "email": "voral.adm@gmail.com"
+    }
+  ]
+}
