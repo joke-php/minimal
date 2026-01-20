@@ -4,7 +4,7 @@
   "type": "project",
   "require": {
     "php": "^8.4",
-    "voral/joke": "^1.0"
+    "voral/joke": "^1.1"
   },
   "license": "MIT",
   "autoload": {

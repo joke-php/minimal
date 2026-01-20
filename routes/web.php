@@ -10,4 +10,4 @@ use Vasoft\Joke\Core\Response\HtmlResponse;
  */
 $router->get('/', HomeController::class);
 $router->get('/hi/{name:slug}', static fn(string $name) => 'Hi ' . $name);
-$router->get('*', static fn() => new HtmlResponse()->setStatus(ResponseStatus::NOT_FOUND)->setBody('Not found'));
+$router->get('/{*}', static fn(string $path) => new HtmlResponse()->setStatus(ResponseStatus::NOT_FOUND)->setBody('Not found '.$path));

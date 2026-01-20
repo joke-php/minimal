@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b361079531a11b294cf321b342682a70",
+    "content-hash": "6418c2f244132f333d18a9fbc4eb5eec",
     "packages": [
         {
             "name": "voral/joke",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Voral/joke.git",
-                "reference": "70b1f6791bbd5a7cb4e75e273ccc059642d3b1ca"
+                "reference": "e7e9531563ce4aff4cc5b704f6fbe914d1d6d438"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Voral/joke/zipball/70b1f6791bbd5a7cb4e75e273ccc059642d3b1ca",
-                "reference": "70b1f6791bbd5a7cb4e75e273ccc059642d3b1ca",
+                "url": "https://api.github.com/repos/Voral/joke/zipball/e7e9531563ce4aff4cc5b704f6fbe914d1d6d438",
+                "reference": "e7e9531563ce4aff4cc5b704f6fbe914d1d6d438",
                 "shasum": ""
             },
             "require": {
@@ -47,9 +47,9 @@
             "description": "A minimal PHP microframework with manual routing and dependency injection container.",
             "support": {
                 "issues": "https://github.com/Voral/joke/issues",
-                "source": "https://github.com/Voral/joke/tree/v1.0.0"
+                "source": "https://github.com/Voral/joke/tree/v1.1.0"
             },
-            "time": "2026-01-20T12:01:40+00:00"
+            "time": "2026-01-20T14:13:11+00:00"
         }
     ],
     "packages-dev": [],
@@ -58,7 +58,9 @@
     "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": {},
+    "platform": {
+        "php": "^8.4"
+    },
     "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
