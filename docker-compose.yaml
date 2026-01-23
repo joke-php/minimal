@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./docker/php/Dockerfile
+    container_name: joke-app
+    volumes:
+      # Монтируем текущую папку внутрь контейнера
+      - ./:/var/www/html
+    ports:
+      - "8000:8000"
+    networks:
+      - joke-net
+
+networks:
+  joke-net:
+    driver: bridge
