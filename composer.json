@@ -3,8 +3,8 @@
   "description": "Minimal skeleton for projects using the Joke micro-framework",
   "type": "project",
   "require": {
-    "php": "^8.4",
-    "voral/joke": "^1.1"
+    "php": "^8.5",
+    "voral/joke": "^1.3"
   },
   "license": "MIT",
   "autoload": {
