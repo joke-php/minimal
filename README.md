@@ -12,6 +12,7 @@
 composer create-project voral/joke-minimal my-app
 cd my-app
 ```
+После создания проекта выполните `composer update`, чтобы получить последние версии зависимостей.
 
 Запустите встроенный сервер разработки:
 
