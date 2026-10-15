@@ -4,26 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "67f314663c86a8e9da6539ed046c7da0",
+    "content-hash": "661a3e7fb17e1e5ecc42d02d2b3b0599",
     "packages": [
         {
             "name": "voral/joke",
-            "version": "1.5.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/joke-php/joke.git",
-                "reference": "d2c28e742363c574db9196f2e5f76db214464b09"
+                "reference": "c0e002edebcc325261e709a80bed4144abb56aab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/joke-php/joke/zipball/d2c28e742363c574db9196f2e5f76db214464b09",
-                "reference": "d2c28e742363c574db9196f2e5f76db214464b09",
+                "url": "https://api.github.com/repos/joke-php/joke/zipball/c0e002edebcc325261e709a80bed4144abb56aab",
+                "reference": "c0e002edebcc325261e709a80bed4144abb56aab",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
+                "ext-iconv": "*",
                 "ext-libxml": "*",
-                "php": "^8.4"
+                "php": "^8.5"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^3.93",
@@ -52,9 +53,9 @@
             "description": "A minimal PHP microframework with manual routing and dependency injection container.",
             "support": {
                 "issues": "https://github.com/joke-php/joke/issues",
-                "source": "https://github.com/joke-php/joke/tree/v1.5.0"
+                "source": "https://github.com/joke-php/joke/tree/v2.0.0"
             },
-            "time": "2026-08-21T07:26:28+00:00"
+            "time": "2026-10-15T06:45:07+00:00"
         }
     ],
     "packages-dev": [],
